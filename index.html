@@ -3,13 +3,45 @@
 
 <head>
   <title>Carter Gautreau Website</title>
+  <link rel="stylesheet" href="style.css"
+main {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
+  align-items: center;
+  min-height: calc(100vh - 160px);
+  gap: clamp(32px, 5vw, 80px);
+}
+
+.sidebar {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
 </head>
 
 <body>
   <!-- All content goes here -->
   <div id="all-contents">
-     
+    <!-- nav goes here td6-->
+    <main>
+     <div class="sidebar">
 
+     </div>
+     <div class="content">
+      <h2>Carter Gautreau</h2>
+      <p>Student at East Acension high</p>
+        <div id="interests">
+          <h3>Interests</h3>
+
+        </div>
+     </div>
+    </main>
   </div>
 </body>
 
